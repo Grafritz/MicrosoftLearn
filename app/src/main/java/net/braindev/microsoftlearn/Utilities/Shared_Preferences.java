@@ -107,7 +107,7 @@ public class Shared_Preferences extends Activity {
 
     //region [  ]
     public String getPageWebView() {
-        this.pageWebView = this.sharedPreferences.getString("URL_MICROSOFT_LEARN_EN", Constant.URL_MICROSOFT_LEARN_EN);
+        this.pageWebView = this.sharedPreferences.getString("URL_MICROSOFT_LEARN_EN", "");
         return pageWebView;
     }
 

@@ -10,11 +10,11 @@ import net.braindev.microsoftlearn.BuildConfig;
 public class Constant {
 
     //region URL
-    public static String URL_MICROSOFT_LEARN_EN ="https://docs.microsoft.com/en-us/learn";
-    public static String URL_MICROSOFT_LEARN_FR ="https://docs.microsoft.com/fr-fr/learn";
+    public static String URL_MICROSOFT_LEARN_EN ="https://docs.microsoft.com/en-us/learn/";
+    public static String URL_MICROSOFT_LEARN_FR ="https://docs.microsoft.com/fr-fr/learn/";
 
     public static String getUrlMicrosoftLearn(String langue) {
-        return "https://docs.microsoft.com/"+langue+"/learn";
+        return "https://docs.microsoft.com/"+langue+"/learn/";
     }
 
     public static String url_Server_APIChant = "https://chant.rezo509.com/";//
